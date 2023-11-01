@@ -1,0 +1,58 @@
+.login-page-1 {
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.login-page-1 .row {
+  height: 100%;
+}
+.text-part {
+  width: 75%;
+  padding: 50px;
+}
+input {
+  margin-top: 15px;
+  height: 50px;
+  padding-left: 20px;
+}
+input:focus {
+  box-shadow: none;
+  outline: none;
+}
+button {
+  height: 50px;
+  margin-top: 15px;
+  width: 50%;
+  color: white;
+  background-color: rgb(234, 56, 20);
+  border: none;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(234, 56, 20);
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.76);
+}
+
+img {
+  height: 500px;
+}
+
+.login-page-1-reactangle {
+  width: 650px;
+  height: 140vh;
+  background-color: rgb(234, 56, 20);
+  position: absolute;
+  right: -250px;
+  bottom: -250px;
+  transform: rotate(30deg);
+  z-index: -1;
+}
